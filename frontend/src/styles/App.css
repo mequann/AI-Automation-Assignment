@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+}
+.App {
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px #eee;
+}
+.command-input-form {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+input[type="text"] {
+  flex: 1;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  background: #1976d2;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:disabled {
+  background: #aaa;
+}
+.meeting-details,
+.agenda-display,
+.email-draft-preview {
+  margin-bottom: 1.5rem;
+}
+pre {
+  background: #f5f5f5;
+  padding: 1rem;
+  border-radius: 4px;
+  white-space: pre-wrap;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  max-width: 100%;
+}
