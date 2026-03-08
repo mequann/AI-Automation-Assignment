@@ -1,0 +1,45 @@
+# ===============================
+# Node modules
+# ===============================
+**/node_modules/
+
+# ===============================
+# Logs and temp files
+# ===============================
+*.log
+*.tmp
+*.bak
+*.swp
+*.DS_Store
+
+# ===============================
+# Environment / secret files
+# ===============================
+**/.env
+**/config/*.json
+**/config/*.key
+**/config/*.pem
+**/Client\ secret*.txt
+**/sendergrid*
+**/twilio*
+
+# ===============================
+# Build / output directories
+# ===============================
+dist/
+build/
+**/out/
+
+# ===============================
+# IDE/editor settings
+# ===============================
+.vscode/
+.idea/
+*.iml
+
+# ===============================
+# Misc sensitive files
+# ===============================
+**/secretmanager/
+**/keys/
+**/credentials/
